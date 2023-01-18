@@ -1,0 +1,25 @@
+{
+  "name": "juliebidard",
+  "version": "1.0.3",
+  "description": "Business card",
+  "main": "./bin/biolinks.js",
+  "bin": {
+    "ph7biolinks": "./bin/biolinks.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/biolinks.js"
+  },
+  "keywords": [
+    "business",
+    "card",
+    "npm"
+  ],
+  "author": "Julie Bidard",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^5.2.0",
+    "node-fetch": "^2.6.7"
+  }
+}
